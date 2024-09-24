@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    padding: 15px;
+    margin: 0;
+}
+
+.header h2 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header ul li {
+    display: inline;
+}
+
+.header ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.header ul li a:hover {
+    background-color:rgba(9, 255, 0, 0.719);
+    border-radius: 5px;
+}
+
+.welcome p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome h1 {
+    padding: 0;
+    margin: 0;
+    color: green;
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+.welcome h1:hover {
+    color:rgba(9, 255, 0, 0.719)
+}
+
+.gambar {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar img {
+    padding: 0;
+    filter: grayscale(1);
+    margin: 15px 15px;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.gambar img:hover {
+    filter: grayscale(0);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%
+}
+
+.isi-footer {
+    margin-bottom: 20px;
+}
+
+.isi-footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.isi-footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.socials li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.socials li a:hover {
+    color:rgba(9, 255, 0, 0.719);
+}
+
+.footer-bottom {
+    padding: 10px 10px;
+    background-color: rgb(80, 80, 80);
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+    color:rgba(9, 255, 0, 0.719)
+}
